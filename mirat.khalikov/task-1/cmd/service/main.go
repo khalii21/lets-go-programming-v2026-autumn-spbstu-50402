@@ -8,7 +8,6 @@ func main() {
 		op        string
 		err       error
 	)
-
 	_, err = fmt.Scanln(&a)
 	if err != nil {
 		fmt.Println("Invalid first operand")
